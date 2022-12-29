@@ -1,20 +1,22 @@
-
 body {
-    background-color: beige;
-    text-align: center;
+  background-color: beige;
+  text-align: center;
 }
 .board {
-    height: 600px;
-    width: 600px; 
-    display: grid;
-    border: solid 1px black;
-    margin: auto;
-    
+  height: 600px;
+  width: 600px;
+  display: grid;
+  border: solid 1px black;
+  margin: auto;
 }
 .board > div {
-    border: solid 1px #f9f9f9;
+  border: solid 1px #f9f9f9;
 }
 
-.buttons .button {
-    
+.buttons {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 25px;
 }
